@@ -17,5 +17,16 @@ Dog Classifier
   --------
   
   Data Set
-  'Kaggle Cats and Dogs Dataset' is the data set I will use to train and test my model. It has 12497 cat images and 12499 dog images.
-  I will choose 22500 pictures from that data sets for training, and the rest for testing.  
+    'Kaggle Cats and Dogs Dataset' is the data set I will use to train and test my model. It has 12497 cat images and 12499 dog images.
+    I will choose 22500 pictures from that data sets for training, and the rest for testing.  
+
+  --------
+  
+  Algorithm Breakdown
+    for i in iterator:
+      input -> linearforward -> sigmoid -> linearforward -> sigmoid -> output
+      loss -> cost -> backpropagation1 -> backpropagation2 -> simutaniously update W1,b1
+    
+    using learned parameters to imply on trainning set
+    
+  --------
