@@ -52,6 +52,6 @@ def forward_Back_Propagation(X,W1,B1,W2,B2,Y):
            'dB1':dB1}
 
   grad2 = {'dW2':dW2,
-           'dB1':dB1}
+           'dB2':dB2}
   
   return grad1,grad2,costs
