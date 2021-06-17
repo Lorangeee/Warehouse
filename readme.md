@@ -9,7 +9,7 @@ Layer1, A1 -- (10,1)<br>
 Layer2, A2 -- (1,1), also the predict y_hat<br>
 Use sigmoid as activation function between layers.<br>
 
-Input --> linear forward --> sigmoid --> linear forward --> sigmoid --> output
+Input --> linear forward --> sigmoid --> linear forward --> sigmoid --> output<br>
 Loss --> cost --> back propagation1 --> back propagation2 --> simultaneously update parameters
 
 ## Data Set
