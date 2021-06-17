@@ -1,8 +1,5 @@
 # Dog Classifier
-
 This is my first neural network model, a dog classifier. Here in this file I will record how I develop it and improve it's performance step by step.
-
-
 
 ## Neural Network Structure
 Start it from a simple version.
