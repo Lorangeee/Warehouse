@@ -2,7 +2,7 @@
 This is my first neural network model, a dog classifier. Here in this file I will record how I develop it and improve it's performance step by step.
 
 ## Neural Network Structure
-Start it from a simple version.
+Start it from a simple version.<br>
 L = 2, there are 2 hidden layers in the neural network.
 Input layer, X --(10000,1)
 Layer1, A1 -- (10,1)
